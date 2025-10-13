@@ -24,15 +24,15 @@ For implementation details, model design, and experimental configurations, pleas
 Due to the file size limitation, we only upload the fmnist dataset with the default practical setting (β=0.1). Please refer to our project [PFLlib](https://github.com/TsingZ0/PFLlib) for other datasets and environments settings.
 
 ### System
-- **main.py**: configurations of **FedFDA**.  
-- **run_me.sh**: command lines to start **FedFDA**.  
-- **env_linux.yaml**: python environment to run **FedFDA** on Linux.  
-- **./flcore**:  
-  - **./clients/clientDBE.py**: the code on the client.  
-  - **./servers/serverDBE.py**: the code on the server.  
-  - **./trainmodel/models.py**: the code for models.  
-- **./utils**:  
-  - **data_utils.py**: the code to read the dataset. 
+- `main.py`: configurations of `FedAvg+FDA`.  
+- `run_me.sh`: command lines to start `FedAvg+FDA`.  
+- `env_linux.yaml`: python environment to run `FedAvg+FDA` on Linux.  
+- `./flcore`:  
+  - `./clients/clientDBE.py`: the code on the client.  
+  - `./servers/serverDBE.py`: the code on the server.  
+  - `./trainmodel/models.py`: the code for models.  
+- `./utils`:  
+  - `data_utils.py`: the code to read the dataset. 
 
 ### Training and Evaluation
 All codes corresponding to **FedAvg+FDA** are stored in `./system`.  
