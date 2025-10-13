@@ -1,4 +1,4 @@
-<img width="3144" height="1548" alt="framework" src="https://github.com/user-attachments/assets/a7e6102a-68fa-412e-b5cd-9ef0aaa650fa" />## Effective Knowledge Transfer in Federated Learning with Non-IID Data via Feature Distribution Alignment
+## Effective Knowledge Transfer in Federated Learning with Non-IID Data via Feature Distribution Alignment
 
 ### About the research
 In this study, we propose a general Federated Learning (FL) framework called Feature Distribution Alignment (FDA) to address the imbalance between global and local knowledge in Personalized Federated Learning (PFL). FDA enhances collaborative knowledge transfer by aligning global and local feature distributions, enabling personalized local models to effectively learn consensus knowledge while preserving client-specific features. This framework improves the effectiveness, stability, and fairness of FL under diverse non-IID conditions.
@@ -20,4 +20,24 @@ Theoretical analysis confirms that FDA improves server-to-client knowledge trans
 
 For implementation details, model design, and experimental configurations, please refer to our paper entitled: “Effective Knowledge Transfer in Federated Learning with Non-IID Data via Feature Distribution Alignment.”
 
+### Datasets and Environments
 Due to the file size limitation, we only upload the fmnist dataset with the default practical setting (β=0.1). Please refer to our project [PFLlib](https://github.com/TsingZ0/PFLlib) for other datasets and environments settings.
+
+### System
+- **main.py**: configurations of **FedFDA**.  
+- **run_me.sh**: command lines to start **FedFDA**.  
+- **env_linux.yaml**: python environment to run **FedFDA** on Linux.  
+- **./flcore**:  
+  - **./clients/clientDBE.py**: the code on the client.  
+  - **./servers/serverDBE.py**: the code on the server.  
+  - **./trainmodel/models.py**: the code for models.  
+- **./utils**:  
+  - **data_utils.py**: the code to read the dataset. 
+
+### Training and Evaluation
+All codes corresponding to **FedAvg+FDA** are stored in `./system`.  
+Just run the following commands:
+
+```bash
+cd ./system
+sh run_me.sh
