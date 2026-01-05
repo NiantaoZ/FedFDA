@@ -25,7 +25,6 @@ Due to the file size limitation, we only upload the fmnist dataset with the defa
 
 ### System
 - `main.py`: configurations of `FedAvg+FDA`.  
-- `run_me.sh`: command lines to start `FedAvg+FDA`.  
 - `env_linux.yaml`: python environment to run `FedAvg+FDA` on Linux.  
 - `./flcore`:  
   - `./clients/clientDBE.py`: the code on the client.  
@@ -38,6 +37,6 @@ Due to the file size limitation, we only upload the fmnist dataset with the defa
 All codes corresponding to **FedAvg+FDA** are stored in `./system`.  
 Just run the following commands:
 
-```bash
+
 cd ./system
-sh run_me.sh
+$python main.py$
