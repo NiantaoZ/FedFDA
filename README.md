@@ -37,6 +37,4 @@ Due to the file size limitation, we only upload the fmnist dataset with the defa
 All codes corresponding to **FedAvg+FDA** are stored in `./system`.  
 Just run the following commands:
 
-
-cd ./system
 `python main.py`
