@@ -39,4 +39,4 @@ Just run the following commands:
 
 
 cd ./system
-$python main.py$
+`python main.py`
