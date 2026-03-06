@@ -1,4 +1,4 @@
-## Effective Knowledge Transfer in Federated Learning with Non-IID Data via Feature Distribution Alignment
+## Consensus Memory Alignment for Effective Knowledge Transfer in Personalized Federated Learning
 
 ### About the research
 In this study, we propose a general Federated Learning (FL) framework called Feature Distribution Alignment (FDA) to address the imbalance between global and local knowledge in Personalized Federated Learning (PFL). FDA enhances collaborative knowledge transfer by aligning global and local feature distributions, enabling personalized local models to effectively learn consensus knowledge while preserving client-specific features. This framework improves the effectiveness, stability, and fairness of FL under diverse non-IID conditions.
